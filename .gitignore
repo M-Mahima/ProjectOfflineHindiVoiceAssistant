@@ -1,0 +1,25 @@
+# Virtual Environments
+hva_env/
+venv/
+.venv/
+
+# Logs & Outputs
+logs/
+outputs/
+*.log
+*.wav
+
+# Python cache
+__pycache__/
+*.pyc
+
+# DATASETS
+datasets/
+
+# ALL MODEL BINARIES (CRITICAL)
+models/
+onnx_models/
+*.onnx
+*.onnx.data
+*.bin
+*.tflite
