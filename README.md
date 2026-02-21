@@ -16,6 +16,16 @@
 > A low-latency, privacy-preserving voice assistant that understands and responds in **Hindi** —  
 > fully developed and deployed on **Windows OS (Terminal)**, and architecturally ready for **Raspberry Pi / ARM SBC**.
 
+**[Watch Project Demo (PC Deployed)](https://drive.google.com/file/d/1po-DKHXE9IAJHs6nHO6lITtKVoasSpqP/view?usp=sharing)**
+
+---
+
+## 📄 Project Report
+
+A comprehensive project report covering system architecture, complete speech pipeline walkthrough, Windows OS deployment proof, ARM readiness, performance metrics, challenges, and future scope is available below.
+
+📥 [Download Full Project Report (.docx)](./Offline_Hindi_Voice_Assistant_Report.docx)
+
 </div>
 
 ---
@@ -26,7 +36,6 @@
 |---|---|---|
 | 🖥️ **Windows PC (Terminal)** | ✅ **Fully Deployed & Tested** | All pipeline stages validated end-to-end |
 | 🍓 **Raspberry Pi 4 / ARM SBC** | 🔜 **Architecture Complete** | ARM binaries included — pending physical hardware |
-| 🖥️ **QEMU ARM Emulation** | ✅ **Validated** | Pipeline tested via QEMU aarch64 chroot |
 
 > **Note:** This project was entirely developed, integrated, and tested on a **Windows OS terminal environment**. The codebase is cross-platform by design — all ARM binaries, shared libraries, and deployment scripts are included and validated. Physical Raspberry Pi deployment was not completed due to hardware availability constraints at the time of submission.
 
